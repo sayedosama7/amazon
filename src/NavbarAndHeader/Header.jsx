@@ -22,6 +22,12 @@ const Header = () => {
           <input type="search" className='searchInput' />
           <i className="fa-solid fa-magnifying-glass"></i>
         </div>
+        <div className='cartOption cart-phone'>
+          <Link to='/Checkbox' className='cartOptionOne'>
+            <i className="  fa-solid fa-cart-shopping"></i>
+          </Link>
+          <Link to='/Checkbox' className='cartCount'>{totalItems}</Link>
+        </div>
         <Navbar.Toggle className='aa' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
 

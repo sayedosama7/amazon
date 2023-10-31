@@ -1,0 +1,62 @@
+.amazon {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: #e7e7e7 !important;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.appliances,
+.elctronics,
+.Grocery,
+.HomeDecor,
+.TodayDeals,
+.Fashion {
+    margin-bottom: 50px;
+}
+
+.all-header {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.all-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.all-header h2 {
+    color: #0f0f11;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.all-body img {
+    height: 250px !important;
+    margin: auto;
+    display: block;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.all-box {
+    background-color: #e7e7e73e;
+    padding: 15px;
+}
+
+.prime {
+    background-color: #232f3e;
+}
+
+.prime .btn-prime {
+    background-color: #ffa724 !important;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.prime .btn-prime:hover {
+    background-color: #fcdf00 !important;
+}

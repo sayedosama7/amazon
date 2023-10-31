@@ -39,15 +39,15 @@ return (
     </nav>
     
     <div className='header_links' >
-    <Link to ="/MobilePhones" className='headerLinksOption' >Today'sDeals</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Prime</Link>
+    <Link to ="/TodayDeals" className='headerLinksOption' >Today'sDeals</Link>
+    <Link to ="/Prime" className='headerLinksOption'>Prime</Link>
     <Link to ="/MobilePhones"  className='headerLinksOption'>MobilePhones</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Electronics</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Help</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Appliances</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Fashion</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Home</Link>
-    <Link to ="/MobilePhones" className='headerLinksOption'>Grocery</Link>
+    <Link to ="/Electronics" className='headerLinksOption'>Electronics</Link>
+    <Link to ="/signup" className='headerLinksOption'>Help</Link>
+    <Link to ="/Appliances" className='headerLinksOption'>Appliances</Link>
+    <Link to ="/HomeDecor" className='headerLinksOption'>Home Decor</Link>
+    <Link to ="/Fashion" className='headerLinksOption'>Fashion</Link>
+    <Link to ="/Grocery" className='headerLinksOption'>Grocery</Link>
     <Link to ="/signup" className='headerLinksOption'>Contact Us</Link>
     </div>
     <Link to='/'>

@@ -9,6 +9,7 @@ import Navbar2 from '../NavbarAndHeader/Navbar2';
 import Navbar from '../NavbarAndHeader/Navbar';
 import "./CheckOut.css"
 import Header from '../NavbarAndHeader/Header';
+import Footer2 from '../Footer/Footer2';
 function Cart() {
   const { cartTotal, emptyCart, isEmpty, totalUniqueItems, items, updateItemQuantity, removeItem } = useCart();
 
@@ -32,7 +33,7 @@ function Cart() {
         <Row>
           <Link className='amazon mt-0' to='/'><h1 className='amazon mt-0'>amazon</h1></Link>
           <div className='cart-title'>
-            <h2>Cart Shop </h2>
+            <h2>Shopping Cart</h2>
             <h6 className='mb-4'>Numbre Of Products ( {totalUniqueItems} )</h6>
           </div>
           <Col md="12" className='text-center'>
@@ -107,6 +108,7 @@ function CartPage() {
       <Navbar2 />
       <Cart />
       <Footer />
+      <Footer2 />
     </CartProvider>
   )
 }
