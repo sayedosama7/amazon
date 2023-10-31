@@ -9,6 +9,9 @@
     "defaults",
     "not ie 11",
     "not and_ff <= 105",
-    "not firefox <= 105"
+    "not firefox <= 105",
+    "not and_ff <= 118",
+    "not firefox <= 118",
+    "not opera <= 103"
   ]
 }

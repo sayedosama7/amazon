@@ -9,6 +9,13 @@ import PhonesData from './Cart/PhonesData'
 import DotLoader from "react-spinners/DotLoader";
 import './App.css'
 import { CartProvider } from 'react-use-cart'
+import Appliances from './Appliances/Appliances'
+import Electronics from './Electronics/Electronics'
+import Grocery from './Grocery/Grocery'
+import HomeDecor from './HomeDecor/HomeDecor'
+import TodayDeals from './TodayDeals/TodayDeals'
+import Fashion from './Fashion/Fashion'
+import Prime from './Prime/Prime'
 const App = () => {
   const [loading, setLoading] = useState([false]);
   useEffect(() => {
@@ -33,6 +40,13 @@ const App = () => {
             <Route path='/signup' element={<SignUp />} />
             <Route path='/Checkbox' element={<Checkbox />} />
             <Route path='/phones' element={<PhonesData />} />
+            <Route path='/Appliances' element={<Appliances />} />
+            <Route path='/Electronics' element={<Electronics />} />
+            <Route path='/Grocery' element={<Grocery />} />
+            <Route path='/HomeDecor' element={<HomeDecor />} />
+            <Route path='/TodayDeals' element={<TodayDeals />} />
+            <Route path='/Fashion' element={<Fashion />} />
+            <Route path='/Prime' element={<Prime />} />
           </Routes>
         }
       </BrowserRouter>

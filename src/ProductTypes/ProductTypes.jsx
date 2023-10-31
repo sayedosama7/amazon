@@ -17,7 +17,7 @@ function ProductTypes() {
                 <Link className='amazon' to='/'><h1 className='amazon'>amazon</h1></Link>
                 <Row className='ProductType'>
                     <Col lg={3} md={6} sm={12}>
-                        <Link className='link' to='/Phones'  >
+                        <Link className='link' to='/Phones'>
                             <img src="/Images/ProductTypePhones/Honor.jpg" alt='' />
                             <p className='qqq'>Honor</p>
                         </Link>
